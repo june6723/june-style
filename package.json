@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "prepack": "json -f package.json -I -e \"delete this.devDependencies; delete this.dependencies\"",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=a773f18dab81"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -52,5 +53,7 @@
       "import": "./dist/june-style.es.js",
       "require": "./dist/june-style.umd.js"
     }
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "june-style@0.0.0"
 }
